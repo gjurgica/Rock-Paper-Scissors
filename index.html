@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+    <link rel="stylesheet" href="css/game.css">
+    <title>RockPaperScissors</title>
+</head>
+
+<body>
+    <div class="box box-main">
+        <div class="box box-header">
+            <h1>Click in to your choise!</h1>
+        </div>
+        <div class="box box-inline" id="box-inline-one">
+            <h1>ROCK</h1>
+            <img src="images/rock.jpg" alt="rock">
+        </div>
+        <div class="box box-inline" id="box-inline-two">
+            <h1>PAPER</h1>
+            <img src="images/paper.jpg" alt="paper">
+        </div>
+        <div class="box box-inline" id="box-inline-three">
+            <h1>SCISSORS</h1>
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+            <div class="box box-score-inline">
+                <h1>YOUR SCORE: <span id="my-score"></span></h1>
+            </div>
+            <div class="box box-score-inline">
+                <h1>VS</h1>
+            </div>
+            <div class="box box-score-inline">
+                <h1>COMPUTER SCORE: <span id="computer-score"></span></h1>
+            </div>
+            <div class="box box-btn-reset">
+                <input type="button" value="reset">
+            </div>
+            <div class="box box-choise">
+                <h1>Computer choise is: <span id="computer-choise">?</span></h1>
+            </div>
+            <div class="box box-btn-quit">
+                <input type="button" value="quit game">
+            </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
