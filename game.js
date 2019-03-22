@@ -108,7 +108,7 @@ document.querySelector(".box-btn-reset").addEventListener("click", function () {
             <img src="images/scissors.png" alt="scissors">
     `;
     inputs.mainHeader.innerHTML = `
-            <h1>Click in to your choise!</h1>
+            <h1>Click in to your choice!</h1>
     `;
 
 });
