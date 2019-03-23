@@ -85,9 +85,6 @@ for (const element of inputs.insideDivs) {
         methods.gamePlay();
     })
 }
-document.querySelector(".box-btn-quit").addEventListener("click", function () {
-    variables.gameOver = true;
-});
 document.querySelector(".box-btn-reset").addEventListener("click", function () {
     variables.gameOver = false;
     variables.count1 = 0;
