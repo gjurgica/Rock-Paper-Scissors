@@ -46,7 +46,7 @@ img{
 .box-score{
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .box-score-inline{
     height: 10vh;
@@ -91,11 +91,14 @@ input[type="button"]{
     .box-first {
         grid-template-columns: 1fr 1fr;
     }
+    .box-header{
+        font-size: 2rem;
+    }
     .box-score{
         grid-template-columns: 1fr 1fr;
     }
     .box-score-inline h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         display: block;
     }
     .box-reset{
@@ -116,10 +119,14 @@ input[type="button"]{
         background-color: rgb(212, 153, 106);
     }
     .box-header{
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
+    }
+    img{
+        width: 15rem;
+        height: 15rem;
     }
     .box-score-inline h1{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         display: block;
     }
     .box-first {
