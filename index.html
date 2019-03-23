@@ -15,18 +15,21 @@
         <div class="box box-header">
             <h1>Click in to your choice!</h1>
         </div>
-        <div class="box box-inline" id="box-inline-one">
-            <h1>ROCK</h1>
-            <img src="images/rock.jpg" alt="rock">
+        <div class="box box-first">
+            <div class="box box-inline" id="box-inline-one">
+                <h1>ROCK</h1>
+                <img src="images/rock.jpg" alt="rock">
+            </div>
+            <div class="box box-inline" id="box-inline-two">
+                <h1>PAPER</h1>
+                <img src="images/paper.jpg" alt="paper">
+            </div>
+            <div class="box box-inline" id="box-inline-three">
+                <h1>SCISSORS</h1>
+                <img src="images/scissors.png" alt="scissors">
+            </div>
         </div>
-        <div class="box box-inline" id="box-inline-two">
-            <h1>PAPER</h1>
-            <img src="images/paper.jpg" alt="paper">
-        </div>
-        <div class="box box-inline" id="box-inline-three">
-            <h1>SCISSORS</h1>
-            <img src="images/scissors.png" alt="scissors">
-        </div>
+        <div class="box box-score">   
             <div class="box box-score-inline">
                 <h1>YOUR SCORE: <span id="my-score"></span></h1>
             </div>
@@ -36,6 +39,8 @@
             <div class="box box-score-inline">
                 <h1>COMPUTER SCORE: <span id="computer-score"></span></h1>
             </div>
+        </div>
+        <div class="box box-reset">   
             <div class="box box-btn-reset">
                 <input type="button" value="reset">
             </div>
@@ -45,6 +50,7 @@
             <div class="box box-btn-quit">
                 <input type="button" value="quit game">
             </div>
+        </div>
     </div>
     <script src="game.js"></script>
 </body>
